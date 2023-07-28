@@ -1,0 +1,41 @@
+const Data = [
+    {
+        name:'john',
+        Age:24,
+        Course:'MEARN',
+        Batch:'October'
+    }
+    ,
+    {
+        name:'manish',
+        Age:24,
+        Course:'MEARN',
+        Batch:'january'
+    },
+    {
+        name:'rohan',
+        Age:24,
+        Course:'MEARN',
+        Batch:'march'
+    },
+    {
+        name:'kiran',
+        Age:24,
+        Course:'MEARN',
+        Batch:'may'
+    },
+    {
+        name:'ved',
+        Age:24,
+        Course:'MEARN',
+        Batch:'febuary'
+    },
+    {
+        name:'mahesh',
+        Age:24,
+        Course:'MEARN',
+        Batch:'march'
+    }
+]
+
+export default Data;
