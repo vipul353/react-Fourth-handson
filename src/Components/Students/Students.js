@@ -21,11 +21,11 @@ function Students() {
       </div>
       <table className="table">
         <thead>
-          <th>Name</th>
+          <tr><th>Name</th>
           <th>Age</th>
           <th>Course</th>
           <th>Batch</th>
-          <th>change</th>
+          <th>change</th></tr>
         </thead>
         <tbody>
           {data.map((item, index) => {
@@ -35,7 +35,7 @@ function Students() {
                   <td>{item.Age}</td>
                   <td>{item.Course}</td>
                   <td>{item.Batch}</td>
-                  <td><Link to={'/Form'}>Edit</Link></td>
+                  <td><Link to={`/Form/${item.id}`} >Edit</Link></td>
                 </tr>
             );
           })}
