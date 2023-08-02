@@ -12,7 +12,7 @@ function Students() {
         <span className="stu">Students Details</span>
         <button
           onClick={() => {
-            console.log("louda mera");
+           
           }}
           className="btn"
         >
@@ -35,7 +35,7 @@ function Students() {
                   <td>{item.Age}</td>
                   <td>{item.Course}</td>
                   <td>{item.Batch}</td>
-                  <td><Link to={`/Form/${item.id}`} >Edit</Link></td>
+                  <td><Link>Edit</Link></td>
                 </tr>
             );
           })}

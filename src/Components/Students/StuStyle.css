@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 
 .main {
   padding: 5rem;
@@ -47,4 +51,11 @@ th, td {
     border-left: none;
     padding: 2.2rem;
     text-align: center;
+  }
+
+
+  @media screen and (max-width:425px) {
+    html {
+      font-size: 33.5%;
+    }
   }
