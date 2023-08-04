@@ -13,7 +13,7 @@ export const StudentForm = () => {
   const [course,setCourse] = useState(data[id].Course);
   const [batch,setBatch] = useState(data[id].Batch);
 
-  const [formData , setFormData] = useState({})
+  // const [formData , setFormData] = useState({})
   
  const onClick = (e) => {
   e.preventDefault();
